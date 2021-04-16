@@ -1,7 +1,7 @@
 ##Transcriptome Assembly step using Penaeus vannamei (Pacific white shrimp)
 #as a reference genome:
 #Download the reference genome at the following location as a fasta format:
-https://www.ncbi.nlm.nih.gov/genome/?term=Penaeus+vannamei:
+https://www.ncbi.nlm.nih.gov/genome/?term=Penaeus+vannamei
 #Concatenate the different transcriptome tissues with the following command to create one dataset file containing all tissues cleaned sequecninf reads:
 cat tissue1 tissue2 tissue3 > dataset_trimmed.fastq.gz
 #The first step of the assembly is to index the reference genome using the tool BWA:
