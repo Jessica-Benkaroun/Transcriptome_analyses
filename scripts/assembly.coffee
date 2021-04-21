@@ -16,3 +16,6 @@ cat tissue1 tissue2 tissue3 > dataset_trimmed.fastq.gz
 # Record the number of reads that have been aligned to the refrence genome with the following:
 ./samtools flagstat dataset_aligned_sorted.bam
 # We will use the tool IGV to vizualise our alignement
+#Assembly with Bowtie: 
+ ./bowtie reference_genome dataset_trimmed.fastq
+  
